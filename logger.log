@@ -1,0 +1,23 @@
+INFO E:\git\python\django_seminars\seminar1\views.py changed, reloading.
+INFO <WSGIRequest: GET '/'> request received!
+WARNING Not Found: /semiinar1/dice
+WARNING Not Found: /dice
+WARNING Not Found: /seminar1
+INFO <WSGIRequest: GET '/seminar1/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO E:\git\python\django_seminars\seminar1\urls.py changed, reloading.
+INFO <WSGIRequest: GET '/'> request received!
+INFO <WSGIRequest: GET '/'> request received!
+INFO "GET / HTTP/1.1" 200 10
+INFO "GET /seminar1/about HTTP/1.1" 301 0
+INFO <WSGIRequest: GET '/seminar1/about/'> request received
+INFO "GET /seminar1/about/ HTTP/1.1" 200 131
+INFO <WSGIRequest: GET '/seminar1/home/'> request received
+INFO "GET /seminar1/home/ HTTP/1.1" 200 131
