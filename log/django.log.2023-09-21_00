@@ -1,0 +1,8 @@
+INFO 20-09-2023 22:15:09 autoreload Watching for file changes with StatReloader
+INFO 20-09-2023 22:15:24 basehttp "GET / HTTP/1.1" 200 10
+INFO 20-09-2023 22:17:43 autoreload Watching for file changes with StatReloader
+INFO 20-09-2023 22:18:01 basehttp "GET /seminar1/about HTTP/1.1" 301 0
+INFO 20-09-2023 22:18:01 views <WSGIRequest: GET '/seminar1/about/'> request received
+INFO 20-09-2023 22:18:01 basehttp "GET /seminar1/about/ HTTP/1.1" 200 131
+INFO 20-09-2023 22:18:06 views <WSGIRequest: GET '/seminar1/home/'> request received
+INFO 20-09-2023 22:18:06 basehttp "GET /seminar1/home/ HTTP/1.1" 200 131

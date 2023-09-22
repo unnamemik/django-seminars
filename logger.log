@@ -1,23 +1,1010 @@
-INFO E:\git\python\django_seminars\seminar1\views.py changed, reloading.
-INFO <WSGIRequest: GET '/'> request received!
-WARNING Not Found: /semiinar1/dice
-WARNING Not Found: /dice
-WARNING Not Found: /seminar1
-INFO <WSGIRequest: GET '/seminar1/'> request received
+INFO <WSGIRequest: GET '/'> request received
 WARNING Not Found: /favicon.ico
-INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
-INFO E:\git\python\django_seminars\seminar1\urls.py changed, reloading.
-INFO <WSGIRequest: GET '/'> request received!
-INFO <WSGIRequest: GET '/'> request received!
+INFO C:\Users\mike\PycharmProjects\dj-seminars\main\views.py changed, reloading.
+INFO <WSGIRequest: GET '/'> request received
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /seminar1
+INFO <WSGIRequest: GET '/seminar2/'> request received
+INFO <WSGIRequest: GET '/seminar2/dice/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+WARNING Not Found: /favicon.ico
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 24, in heads_tails
+    return HttpResponse(res_w.statistic(res_w))
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 11, in statistic
+    res_dict.setdefault(self.all())
+AttributeError: 'HeadsTails' object has no attribute 'all'
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 24, in heads_tails
+    return HttpResponse(res_w.statistic(res_w))
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 11, in statistic
+    res_dict.setdefault(self.all())
+AttributeError: 'HeadsTails' object has no attribute 'all'
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/'> request received
+WARNING Not Found: /heads_tails
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    return HttpResponse(res_w.statistic(n))
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 13, in statistic
+    return str(HeadsTails.res_dict[:n])
+TypeError: unhashable type: 'slice'
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/'> request received
+INFO <WSGIRequest: GET '/seminar2/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+WARNING Not Found: /favicon.ico
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 28, in heads_tails
+    print(data[0])
+TypeError: 'DeferredAttribute' object is not subscriptable
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 29, in heads_tails
+    return HttpResponse(data[0])
+TypeError: 'DeferredAttribute' object is not subscriptable
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 11, in statistic
+    dict_res = {n: query[n] for n in query}
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 11, in <dictcomp>
+    dict_res = {n: query[n] for n in query}
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\query.py", line 418, in __getitem__
+    raise TypeError(
+TypeError: QuerySet indices must be integers or slices, not HeadsTails.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 28, in heads_tails
+    print(data)
+NameError: name 'data' is not defined
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 27, in heads_tails
+    return HttpResponse(**data)
+TypeError: keywords must be strings
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 27, in heads_tails
+    return HttpResponse(*data)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\http\response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\http\response.py", line 139, in __init__
+    raise ValueError("HTTP status code must be an integer from 100 to 599.")
+ValueError: HTTP status code must be an integer from 100 to 599.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 10, in statistic
+    query = (HeadsTails.objects.all())[:-5]
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 11, in statistic
+    query = query.reverse()[:5]
+TypeError: 'NoneType' object is not subscriptable
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 15, in statistic
+    dict_res = {n: query[n] for n in range(len(query))}
+TypeError: object of type 'NoneType' has no len()
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 14, in statistic
+    query = query.sort()[:5]
+TypeError: '<' not supported between instances of 'HeadsTails' and 'HeadsTails'
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 14, in statistic
+    query = query.sort()[:5]
+AttributeError: 'QuerySet' object has no attribute 'sort'
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 14, in statistic
+    query = query[:-5]
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 14, in statistic
+    list_res = query.reverse()[:5]
+TypeError: 'NoneType' object is not subscriptable
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 11, in statistic
+    list_res = query.reverse()[:5]
+TypeError: 'NoneType' object is not subscriptable
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 11, in statistic
+    list_res = query.reverse()[:5]
+TypeError: 'NoneType' object is not subscriptable
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic(n)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py", line 11, in statistic
+    list_res = query[-n:]
+TypeError: bad operand type for unary -: 'str'
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+WARNING Not Found: /seminar2/heads_tails/10
+WARNING Not Found: /seminar2/heads_tails/n=10
+INFO <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/?n=20'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/?n=1'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\models.py changed, reloading.
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\urls.py changed, reloading.
+INFO <WSGIRequest: GET '/'> request received
+WARNING Not Found: /articles
+INFO <WSGIRequest: GET '/seminar2/articles/'> request received
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\urls.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar2/'> request received
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/'> request received
+INFO <WSGIRequest: GET '/seminar2/comments/'> request received
+ERROR Internal Server Error: /seminar2/comments/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 44, in comment_read
+    comment_id = request.get('comment_id')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/comments/'> request received
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+WARNING Not Found: /seminar2/comments/comment_create/
+INFO <WSGIRequest: GET '/seminar2/comments/create/?author_id=1&article_id=1'> request received
+ERROR Internal Server Error: /seminar2/comments/create/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 50, in comment_create
+    author_id = request.get('author_id')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/comments/create/?author_id=1&article_id=1'> request received
+ERROR Internal Server Error: /seminar2/comments/create/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 50, in comment_create
+    author_id = request.get['author_id']
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/comments/create/?author_id=1&article_id=1'> request received
+ERROR Internal Server Error: /seminar2/comments/create/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: seminar2_comment.article_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 59, in comment_create
+    comment.save()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: seminar2_comment.article_id
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/comments/create/?author_id=1&article_id=1'> request received
+ERROR Internal Server Error: /seminar2/comments/create/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 50, in comment_create
+    author_id = request.GET.get['author_id']
+TypeError: 'method' object is not subscriptable
+INFO C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/comments/create/?author_id=1&article_id=1'> request received
+ERROR Internal Server Error: /seminar2/comments/create/
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: seminar2_comment.article_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\seminar2\views.py", line 59, in comment_create
+    comment.save()
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\mike\PycharmProjects\dj-seminars\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: seminar2_comment.article_id
+INFO <WSGIRequest: GET '/seminar2/comments/create/?author_id=1&article_id=1'> request received
+INFO <WSGIRequest: GET '/seminar2/comments/'> request received
+INFO <WSGIRequest: GET '/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar2/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 26, in heads_tails
+    print(data.values())
+AttributeError: 'list' object has no attribute 'values'
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO E:\git\python\dj_test\seminar2\models.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\models.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\models.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic(n)
+  File "E:\git\python\dj_test\seminar2\models.py", line 18, in statistic
+    if "Орел" in item[1]:
+TypeError: 'HeadsTails' object is not subscriptable
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic(n)
+  File "E:\git\python\dj_test\seminar2\models.py", line 18, in statistic
+    if "Орел" in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+ERROR Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 25, in heads_tails
+    data = HeadsTails.statistic(n)
+  File "E:\git\python\dj_test\seminar2\models.py", line 18, in statistic
+    if "Орел" in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO E:\git\python\dj_test\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
+WARNING Not Found: /seminar1/heads_tails
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
+INFO <WSGIRequest: GET '/seminar2/authors/'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/?author_id=1'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/?author_id=1'> request received
+INFO <WSGIRequest: GET '/seminar2/articles/?author_id=1'> request received
+INFO E:\git\python\dj_test\seminar2\urls.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/create/?author_id=1'> request received
+INFO <WSGIRequest: GET '/seminar2/articles/create/?author_id=1'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/update/?article_id=2'> request received
+ERROR Internal Server Error: /seminar2/articles/update/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 60, in article_update
+    author = Article.objects.filter(article_id=article_id).first()
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'article_id' into field. Choices are: author, author_id, category, comment, content, id, is_published, published, show_count, title
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/update/?article_id=2'> request received
+ERROR Internal Server Error: /seminar2/articles/update/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 60, in article_update
+    author_id = Article.objects.filter(article_id=article_id).first().id
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'article_id' into field. Choices are: author, author_id, category, comment, content, id, is_published, published, show_count, title
+INFO <WSGIRequest: GET '/seminar2/articles/update/?article_id=2'> request received
+ERROR Internal Server Error: /seminar2/articles/update/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: seminar2_article.author_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 69, in article_update
+    article.save()
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: seminar2_article.author_id
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/update/?article_id=2'> request received
+ERROR Internal Server Error: /seminar2/articles/update/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view seminar2.views.article_update didn't return an HttpResponse object. It returned None instead.
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/update/?article_id=2'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/update/?article_id=2'> request received
+ERROR Internal Server Error: /seminar2/articles/update/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 61, in article_update
+    article.author = Article.objects.filter(id=article_id).first().author_id
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\fields\related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "1": "Article.author" must be a "Author" instance.
+INFO <WSGIRequest: GET '/seminar2/articles/update/?article_id=2'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/delete/?article_id=3'> request received
+ERROR Internal Server Error: /seminar2/articles/delete/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 72, in article_delete
+    article.delete()
+AttributeError: 'NoneType' object has no attribute 'delete'
+INFO <WSGIRequest: GET '/seminar2/articles/delete/?article_id=4'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\urls.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/article_by_author/?name=mike'> request received
+ERROR Internal Server Error: /seminar2/articles/article_by_author/
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Author'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\dj_test\seminar2\views.py", line 46, in article_by_author
+    article = Article.objects.filter(id=author_id).all()
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "E:\git\python\dj_test\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <Author:   first name: mike, last name: unname  >.
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/article_by_author/?name=mike'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/article_by_author/?name=mike'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/articles/article_by_author/?name=mike'> request received
+INFO E:\git\python\dj_test\seminar2\views.py changed, reloading.
+INFO E:\git\python\dj_test\seminar2\urls.py changed, reloading.
+WARNING Not Found: /seminar2/articles/comment_by_article/
+WARNING Not Found: /seminar2/articles/comment_by_article/
+INFO <WSGIRequest: GET '/seminar2/comments/comment_by_article/?name=new_article'> request received
+INFO <WSGIRequest: GET '/seminar2/articles/update/?article_id=2'> request received
+INFO E:\git\python\django_seminars\seminar1\views.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
 INFO "GET / HTTP/1.1" 200 10
-INFO "GET /seminar1/about HTTP/1.1" 301 0
-INFO <WSGIRequest: GET '/seminar1/about/'> request received
-INFO "GET /seminar1/about/ HTTP/1.1" 200 131
-INFO <WSGIRequest: GET '/seminar1/home/'> request received
-INFO "GET /seminar1/home/ HTTP/1.1" 200 131
+INFO "GET /seminar2 HTTP/1.1" 301 0
+INFO <WSGIRequest: GET '/seminar2/'> request received
+INFO "GET /seminar2/ HTTP/1.1" 200 17
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO "GET /seminar2/heads_tails/ HTTP/1.1" 200 32
+INFO "GET / HTTP/1.1" 200 10
+INFO <WSGIRequest: GET '/seminar2/heads_tails/?n=10'> request received
+INFO "GET /seminar2/heads_tails/?n=10 HTTP/1.1" 200 32
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/users/'> request received
+INFO <WSGIRequest: GET '/seminar2/users/'> request received
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/users/'> request received
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/users/'> request received
+INFO <WSGIRequest: GET '/seminar2/users/'> request received
+INFO <WSGIRequest: GET '/seminar2/users/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar2/users/'> request received
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/users/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar2/orders/'> request received
+INFO E:\git\python\django_seminars\seminar2\urls.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/orders/'> request received
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/orders/'> request received
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /seminar2/product/
+INFO <WSGIRequest: GET '/seminar2/products/'> request received
+INFO E:\git\python\django_seminars\seminar2\models.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar2/products/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar2/products/'> request received
+WARNING Not Found: /favicon.ico
