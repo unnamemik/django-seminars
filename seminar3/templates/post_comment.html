@@ -1,0 +1,19 @@
+{% extends 'base_temp.html' %}
+{% block title %}{{ post.title }}{% endblock %}
+{% block content %}
+    <h1>Post</h1>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content }}</p>
+    <h2>Comments</h2>
+    {% for comment in comments %}
+        <p>{{ comment.author }}</p>
+        <p>{{ comment.comment }}</p>
+        {% if comment.updated != comment.published %}
+            <p> Изменено: {{ comment.updated }}</p>
+        {% else %}
+            <p> Создано: {{ comment.published }}</p>
+        {% endif %}
+
+    {% endfor %}
+<p>{{ counter }}</p>
+{% endblock %}

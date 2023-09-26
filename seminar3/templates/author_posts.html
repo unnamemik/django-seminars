@@ -1,0 +1,18 @@
+{% extends 'base_temp.html' %}
+{% block title %}{{ author.name }}'s Posts{% endblock %}
+{% block content %}
+    <h2>Последние статьи автора: {{ author.name }}</h2>
+    <table>
+        {% for post in posts %}
+            <tr>
+                <td>
+                    {% if post.published %}
+                    <a href="{% url 'post_full' post.id %}"> {{ post.title }}</a>
+                    {% else %}
+                        {{ post.title }}
+                    {% endif %}
+                <td>{{ post.get_summary }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

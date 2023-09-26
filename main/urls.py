@@ -23,5 +23,6 @@ urlpatterns = [
     path('', index, name='index'),
     path('seminar1/', include('seminar1.urls')),
     path('seminar2/', include('seminar2.urls')),
+    path('seminar3/', include('seminar3.urls')),
     path('admin/', admin.site.urls),
 ]

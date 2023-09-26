@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'seminar1.apps.Seminar1Config',
     'seminar2.apps.Seminar2Config',
+    'seminar3.apps.Seminar3Config',
 ]
 
 MIDDLEWARE = [
@@ -58,8 +59,10 @@ ROOT_URLCONF = 'main.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
-        ,
+        'DIRS': [BASE_DIR / 'templates',
+                 BASE_DIR / 'main/templates',
+                 BASE_DIR / 'seminar3/templates'
+                 ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -126,57 +129,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-#
-# LOGGING = {
-#     'version': 1,
-#     'disable_existing_loggers': False,
-#     'formatters': {
-#         'colored': {
-#             '()': colorlog.ColoredFormatter,
-#             'format': '%(log_color)s%(levelname)-8s%(reset)s %(asctime)s %(module)s %(message)s',
-#             'datefmt': '%d-%m-%Y %H:%M:%S',
-#             'log_colors': {
-#                 'DEBUG': 'blue',
-#                 'INFO': 'green',
-#                 'WARNING': 'yellow',
-#                 'ERROR': 'red',
-#                 'CRITICAL': 'red,bg_white',
-#             },
-#         },
-#         'simple': {
-#             'format': '%(levelname)s %(asctime)s %(module)s %(message)s',
-#             'datefmt': '%d-%m-%Y %H:%M:%S',
-#         },
-#     },
-#     'handlers': {
-#         'console': {
-#             'class': 'logging.StreamHandler',
-#             'formatter': 'colored',
-#         },
-#         'file': {
-#             'class': 'logging.handlers.TimedRotatingFileHandler',
-#             'encoding': 'utf-8',
-#             'filename': './log/django.log',
-#             'backupCount': '3',
-#             'formatter': 'simple',
-#         },
-#     },
-#     'loggers': {
-#         'django': {
-#             'handlers': ['console', 'file'],
-#             'level': 'INFO',
-#         },
-#         'seminar1': {
-#             'handlers': ['console', 'file'],
-#             'level': 'DEBUG',
-#             'propagate': True,
-#         },
-#         'seminar2': {
-#             'handlers': ['console', 'file'],
-#             'level': 'DEBUG',
-#             'propagate': True,
-#         },
-#     },
-# }
