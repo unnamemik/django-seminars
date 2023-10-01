@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 import colorlog as colorlog
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'seminar1.apps.Seminar1Config',
     'seminar2.apps.Seminar2Config',
     'seminar3.apps.Seminar3Config',
+    'seminar4.apps.Seminar4Config',
 ]
 
 MIDDLEWARE = [
@@ -61,7 +62,8 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR / 'templates',
                  BASE_DIR / 'main/templates',
-                 BASE_DIR / 'seminar3/templates'
+                 BASE_DIR / 'seminar3/templates',
+                 BASE_DIR / 'seminar4/templates'
                  ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -119,13 +121,22 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')    # for web dev
+# MEDIA_ROOT = '/'   # for local dev
+
+MEDIA_URL = '/media/'
+
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')    # for web dev
+STATIC_ROOT = '/'   # for local dev
+
 STATIC_URL = 'static/'
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
-
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static/'),                             # for local dev, off on web
+    os.path.join(BASE_DIR, 'seminar3/static/seminar3/'),
+    os.path.join(BASE_DIR, 'seminar4/static/seminar4/'),
+]

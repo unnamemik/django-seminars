@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class HeadsTails(models.Model):
@@ -75,6 +76,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     prod_quant = models.IntegerField()
     reg_date = models.DateField(auto_now_add=True)
+    img = models.ImageField()
 
     def __str__(self):
         return f'Product: {self.name}, price: {self.price}<br>'
@@ -88,4 +90,3 @@ class Order(models.Model):
 
     def __str__(self):
         return f'Order # {self.pk}, total price: {self.total_price}<br>'
-

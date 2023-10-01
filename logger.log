@@ -1306,3 +1306,70 @@ Traceback (most recent call last):
   File "E:\git\python\django_seminars\venv\lib\site-packages\django\db\models\sql\query.py", line 1356, in try_transform
     raise FieldError(
 django.core.exceptions.FieldError: Unsupported lookup 'date' for DateField or join on the field not permitted.
+WARNING Not Found: /seminar4/form5/
+WARNING Not Found: /seminar4/form5/
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /seminar4/form4/
+INFO E:\git\python\django_seminars\seminar4\forms.py changed, reloading.
+WARNING Not Found: /seminar4/form4/
+WARNING Not Found: /seminar4/get_product1
+WARNING Not Found: /seminar4/form5/1/
+WARNING Not Found: /seminar4/form5/1/
+INFO <WSGIRequest: GET '/seminar4/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+ERROR Internal Server Error: /seminar4/products/
+Traceback (most recent call last):
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\django_seminars\seminar4\views.py", line 143, in products
+    return render(request, 'catalog.html', {'products': products})
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: catalog.html
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+ERROR Internal Server Error: /seminar4/products/
+Traceback (most recent call last):
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\django_seminars\seminar4\views.py", line 143, in products
+    return render(request, 'catalog.html', {'products': products})
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: catalog.html
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO <WSGIRequest: GET '/seminar4/'> request received
+INFO <WSGIRequest: GET '/seminar4/prod_edit/'> request received
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /seminar4/product/1/product-1.jpg
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/prod_edit/'> request received
+INFO <WSGIRequest: GET '/seminar4/prod_edit/'> request received
+WARNING Not Found: /favicon.ico
