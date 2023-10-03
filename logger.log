@@ -1373,3 +1373,182 @@ WARNING Not Found: /favicon.ico
 INFO <WSGIRequest: GET '/seminar4/prod_edit/'> request received
 INFO <WSGIRequest: GET '/seminar4/prod_edit/'> request received
 WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO E:\git\python\django_seminars\main\urls.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar5/'> request received
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\admin.py changed, reloading.
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\main\urls.py changed, reloading.
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /materials/
+WARNING Not Found: /material/
+WARNING Not Found: /material/accounts
+INFO E:\git\python\django_seminars\main\urls.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+WARNING Not Found: /material/accounts
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /material/
+WARNING Not Found: /materials/
+INFO E:\git\python\django_seminars\main\urls.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\main\urls.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\main\urls.py changed, reloading.
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+ERROR Internal Server Error: /admin/logout/
+Traceback (most recent call last):
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar5\models.py changed, reloading.
+INFO E:\git\python\django_seminars\main\urls.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar5\views.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar5\views.py changed, reloading.
+INFO E:\git\python\django_seminars\main\urls.py changed, reloading.
+WARNING Not Found: /homepage/
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.

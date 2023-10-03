@@ -33,6 +33,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_material.apps.AdminMaterialDashboardConfig',
+    'material',
+    'material.frontend',
+    'material.admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -43,6 +47,7 @@ INSTALLED_APPS = [
     'seminar2.apps.Seminar2Config',
     'seminar3.apps.Seminar3Config',
     'seminar4.apps.Seminar4Config',
+    'seminar5.apps.Seminar5Config',
 ]
 
 MIDDLEWARE = [
@@ -63,7 +68,8 @@ TEMPLATES = [
         'DIRS': [BASE_DIR / 'templates',
                  BASE_DIR / 'main/templates',
                  BASE_DIR / 'seminar3/templates',
-                 BASE_DIR / 'seminar4/templates'
+                 BASE_DIR / 'seminar4/templates',
+                 BASE_DIR / 'seminar5/templates'
                  ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -78,6 +84,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'main.wsgi.application'
+
+MATERIAL_ADMIN_SITE = 'material.admin.site'
+MATERIAL_ICON_SETS = ['material.icons']
 
 
 # Database
