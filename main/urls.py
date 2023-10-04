@@ -29,10 +29,9 @@ urlpatterns = [
     path('seminar3/', include('seminar3.urls')),
     path('seminar4/', include('seminar4.urls')),
     path('seminar5/', include('seminar5.urls')),
-]
-
-urlpatterns += [
+    path('seminar6/', include('seminar6.urls')),
     path('admin/', admin.site.urls),
+    path('__debug__/', include("debug_toolbar.urls")),
 ]
 
 if settings.DEBUG:

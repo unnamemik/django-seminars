@@ -1,21 +1,19 @@
-{% include 'material/includes/material_css.html' %}
-{% include 'material/includes/material_js.html' %}
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>
-         Title
-      </title>
-      <style>
+<head>
+    <title>
+        Title
+    </title>
+    <style>
 
-      </style>
-   </head>
-   <body>
-      <h2>FORM</h2>
-      <form action="/" method="post">
-         {% csrf_token %}
-         {{ form }}
-         <input type="submit" value="Submit">
-      </form>
-   </body>
+    </style>
+</head>
+<body>
+<h2>FORM</h2>
+<form action="/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+</body>
 </html>

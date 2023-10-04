@@ -1552,3 +1552,157 @@ WARNING Not Found: /homepage/
 WARNING Not Found: /favicon.ico
 WARNING Not Found: /favicon.ico
 INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar5/'> request received
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar5/'> request received
+INFO <WSGIRequest: GET '/seminar5/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar5/'> request received
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /seminar5//
+INFO <WSGIRequest: GET '/seminar5/'> request received
+INFO <WSGIRequest: GET '/seminar5/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar5/'> request received
+INFO <WSGIRequest: GET '/seminar5/'> request received
+INFO <WSGIRequest: GET '/seminar1/'> request received
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/dice/'> request received!
+INFO <WSGIRequest: GET '/seminar1/rand/'> request received
+INFO <WSGIRequest: GET '/seminar1/rand/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar1/rand/'> request received
+INFO <WSGIRequest: GET '/seminar1/rand/'> request received
+WARNING Not Found: /render_panel/
+WARNING Not Found: /1
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar1/rand/'> request received
+INFO <WSGIRequest: GET '/seminar1/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+INFO <WSGIRequest: GET '/seminar2/heads_tails/'> request received
+WARNING Not Found: /seminar3/heads_tails/
+INFO <WSGIRequest: GET '/seminar3/'> request received
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar3/'> request received
+INFO <WSGIRequest: GET '/seminar3/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/products/'> request received
+INFO <WSGIRequest: GET '/seminar4/'> request received
+INFO <WSGIRequest: GET '/seminar4/'> request received
+INFO <WSGIRequest: GET '/seminar3/'> request received
+INFO <WSGIRequest: GET '/seminar4/'> request received
+WARNING Not Found: /seminar4/dice/
+WARNING Not Found: /seminar4/dice
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar5/'> request received
+ERROR Internal Server Error: /seminar5/homepage/
+Traceback (most recent call last):
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\test\utils.py", line 112, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader_tags.py", line 197, in render
+    template = context.template.engine.select_template(template_name)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\engine.py", line 212, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: material/includes/material_css.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\django_seminars\seminar5\views.py", line 32, in home_page
+    return render(request, 'home_page.html', {'form': form})
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: material/includes/material_css.html
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar4/'> request received
+INFO <WSGIRequest: GET '/seminar6/'> request received
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO <WSGIRequest: GET '/seminar6/'> request received
+ERROR Internal Server Error: /seminar6/
+Traceback (most recent call last):
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\django_seminars\seminar6\views.py", line 12, in seminar6
+    return render(request, 'seminar6.html')
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: seminar6.html
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar6/'> request received
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar6/'> request received
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO <WSGIRequest: GET '/seminar6/'> request received
+INFO E:\git\python\django_seminars\seminar6\views.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar6\views.py changed, reloading.
+WARNING Not Found: /seminar6/total_in_db/
+WARNING Not Found: /favicon.ico
+ERROR Internal Server Error: /seminar6/total/
+Traceback (most recent call last):
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\django_seminars\seminar6\views.py", line 22, in total_in_db
+    'total': total[0]}
+KeyError: 0
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar6\views.py changed, reloading.
+ERROR Internal Server Error: /seminar6/view/
+Traceback (most recent call last):
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\git\python\django_seminars\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\python\django_seminars\seminar6\views.py", line 31, in total_in_view
+    'total': total['quantity__sum']}
+TypeError: 'int' object is not subscriptable
+INFO E:\git\python\django_seminars\seminar6\views.py changed, reloading.
+WARNING Not Found: /favicon.ico
+INFO E:\git\python\django_seminars\seminar6\views.py changed, reloading.
+INFO E:\git\python\django_seminars\seminar6\models.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.
+INFO E:\git\python\django_seminars\main\settings.py changed, reloading.

@@ -16,14 +16,12 @@ Including another URLconf
 """
 
 from django.urls import path, include
-from seminar1 import views
+from seminar6 import views
 
 urlpatterns = [
-    path('', views.seminar1, name='seminar1'),
-    path('heads_tails/', views.heads_tails, name='heads_tails'),
-    path('dice/', views.dice, name='dice'),
-    path('rand/', views.rand, name='rand'),
-    path('home/', views.home, name='home'),
-    path('about/', views.about, name='about'),
+    path('', views.seminar6, name='seminar6'),
+    path('db/', views.total_in_db, name='total_in_db'),
+    path('view/', views.total_in_view, name='total_in_view'),
+    path('template/', views.total_in_template, name='total_in_template'),
 ]
 

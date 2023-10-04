@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Seminar6{% endblock %}
+{% block content %}
+    <h1>Seminar6</h1>
+    {{ title }}
+    {% if total %}
+        <p>{{ total }}</p>
+    {% endif %}
+    {% if products %}
+        <p>{{ products.total_quantity }}</p>
+    {% endif %}
+{% endblock %}

@@ -18,7 +18,6 @@ import colorlog as colorlog
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -28,16 +27,18 @@ SECRET_KEY = 'django-insecure-%c2^qr%-#@0446p92tdza=fw9-lr=t(+7l+0w^=qur!$=*+3h3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['unnamemik.pythonanywhere.com', '127.0.0.1']
 
+INTERNAL_IPS = ['127.0.0.1']
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 # Application definition
 
 INSTALLED_APPS = [
+    'debug_toolbar',
     'admin_material.apps.AdminMaterialDashboardConfig',
-    'material',
-    'material.frontend',
-    'material.admin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -49,9 +50,11 @@ INSTALLED_APPS = [
     'seminar3.apps.Seminar3Config',
     'seminar4.apps.Seminar4Config',
     'seminar5.apps.Seminar5Config',
+    'seminar6.apps.Seminar6Config',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -66,13 +69,14 @@ ROOT_URLCONF = 'main.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'APP_DIRS': True,
         'DIRS': [BASE_DIR / 'templates',
                  BASE_DIR / 'main/templates',
                  BASE_DIR / 'seminar3/templates',
                  BASE_DIR / 'seminar4/templates',
-                 BASE_DIR / 'seminar5/templates'
+                 BASE_DIR / 'seminar5/templates',
+                 BASE_DIR / 'seminar6/templates'
                  ],
-        'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -89,7 +93,6 @@ WSGI_APPLICATION = 'main.wsgi.application'
 MATERIAL_ADMIN_SITE = 'material.admin.site'
 MATERIAL_ICON_SETS = ['material.icons']
 
-
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
@@ -99,6 +102,20 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'unnamemik$default',
+#         'USER': 'unnamemik',
+#         'PASSWORD': 'unn_pass',
+#         'HOST': 'unnamemik.mysql.pythonanywhere-services.com',
+#         'OPTIONS': {
+#             'init_command': "SET NAMES 'utf8mb4';SET sql_mode = 'STRICT_TRANS_TABLES'", 'charset': 'utf8mb4',
+#             },
+#         }
+#     }
+
 
 
 # Password validation
@@ -119,7 +136,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
@@ -135,18 +151,17 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')    # for web dev
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # for web dev
 # MEDIA_ROOT = '/'   # for local dev
 
-MEDIA_URL = '/media/'
+MEDIA_URL = 'media/'
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')    # for web dev
-STATIC_ROOT = '/'   # for local dev
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # for local dev
 
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static/'),                             # for local dev, off on web
     os.path.join(BASE_DIR, 'seminar3/static/seminar3/'),
     os.path.join(BASE_DIR, 'seminar4/static/seminar4/'),
 ]

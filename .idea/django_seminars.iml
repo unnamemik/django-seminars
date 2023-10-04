@@ -26,6 +26,9 @@
         <option value="$MODULE_DIR$/templates" />
         <option value="$MODULE_DIR$/seminar3/templates" />
         <option value="$MODULE_DIR$/main/templates" />
+        <option value="$MODULE_DIR$/seminar5/templates" />
+        <option value="$MODULE_DIR$/seminar6/templates" />
+        <option value="$MODULE_DIR$/seminar4/templates" />
       </list>
     </option>
   </component>
